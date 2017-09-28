@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" guice-stage="DEVELOPMENT" name="Failed suite [php travels IE8 Test Suite]" parallel="tests">
+  <parameter name="scriptPath" value="http://stash/projects/QA/repoos/poortals/browse"/>
+  <parameter name="testDataXlFileName" value="TestData.xls"/>
+  <parameter name="product" value="Portal"/>
+  <parameter name="testLogPath" value="DetailedLog_Optional"/>
+  <parameter name="serviceTask" value="TestServiceTask_TBD"/>
+  <parameter name="build" value="BuildNo_Optional"/>
+  <parameter name="comment" value="TestComment_Optional"/>
+  <parameter name="runner" value="aswami"/>
+  <parameter name="timeout" value="20"/>
+  <parameter name="qcLogProdMode" value="OFF"/>
+  <test name="PharmacyLocator_FunctionalTesting1(failed)" parallel="tests">
+    <parameter name="testCaseNameTC01" value="PHPTravelsSearch"/>
+    <parameter name="testDataEndCell" value="TC_01_END"/>
+    <parameter name="driver" value="ChromeDriver"/>
+    <parameter name="testDataSheetName" value="PHPTravels"/>
+    <parameter name="testDescription" value="Verify Hotel or location search"/>
+    <parameter name="testDataStartCell" value="TC_01_START"/>
+    <classes>
+      <class name="com.travels.testclass.HotelSearch">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="afterClass"/>
+          <include name="setTestData"/>
+          <include name="PHPTravelsSearch" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.travels.testclass.HotelSearch -->
+    </classes>
+  </test> <!-- PharmacyLocator_FunctionalTesting1(failed) -->
+</suite> <!-- Failed suite [php travels IE8 Test Suite] -->

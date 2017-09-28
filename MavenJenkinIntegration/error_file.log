@@ -1,0 +1,67 @@
+2017-05-29 13:35:33,899+0530 0     INFO  [HotelSearch] (TestNG-tests-1:) select the driver
+2017-05-29 13:35:42,755+0530 0     INFO  [HotelSearch] (TestNG-tests-1:) select the driver
+2017-05-29 13:35:45,241+0530 2486  INFO  [HotelSearch] (TestNG-tests-1:) return the driver
+2017-05-29 13:37:30,833+0530 108078 ERROR [HomePage] (TestNG-tests-1:) Not able click on  hotel tab
+2017-05-29 14:37:36,512+0530 0     INFO  [HotelSearch] (TestNG-tests-1:) select the driver
+2017-05-29 14:37:39,682+0530 3170  INFO  [HotelSearch] (TestNG-tests-1:) return the driver
+2017-05-29 14:37:39,855+0530 3343  INFO  [HomePage] (TestNG-tests-1:) open the application URL
+2017-05-29 14:37:44,733+0530 8221  INFO  [HomePage] (TestNG-tests-1:) opened application URL
+2017-05-29 14:37:44,734+0530 8222  INFO  [HomePage] (TestNG-tests-1:) validate title of the application
+2017-05-29 14:37:44,749+0530 8237  INFO  [HomePage] (TestNG-tests-1:) Page title is: PHPTRAVELS | Travel Technology Partner
+2017-05-29 14:37:44,749+0530 8237  INFO  [HomePage] (TestNG-tests-1:) Validate  if  home page is displayed ?  
+2017-05-29 14:37:45,137+0530 8625  INFO  [HomePage] (TestNG-tests-1:) Home Page is displayed 
+2017-05-29 14:37:45,137+0530 8625  INFO  [HomePage] (TestNG-tests-1:) Enter City or Hotel  name
+2017-05-29 14:39:25,223+0530 108711 INFO  [HomePage] (TestNG-tests-1:) City or Hotel  name  textbox field is not found:Unable to find element with xpath == //input[@id='citiesInput'] (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 100.07 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.42.2', revision: '6a6995d31c7c56c340d6f45a76976d43506cd6cc', time: '2014-06-03 10:52:47'
+System info: host: 'SLW1486', ip: '10.10.218.45', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_40'
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities [{browserAttachTimeout=0, enablePersistentHover=true, ie.forceCreateProcessApi=false, ie.usePerProcessProxy=false, ignoreZoomSetting=false, handlesAlerts=true, version=11, platform=WINDOWS, nativeEvents=true, ie.ensureCleanSession=false, elementScrollBehavior=0, ie.browserCommandLineSwitches=, requireWindowFocus=false, browserName=internet explorer, initialBrowserUrl=http://localhost:4444/, takesScreenshot=true, javascriptEnabled=true, ignoreProtectedModeSettings=false, enableElementCacheCleanup=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=dismiss}]
+Session ID: 01e28609-55c6-4e8b-a158-ef585f608f6e
+2017-05-29 14:43:51,642+0530 0     INFO  [HotelSearch] (TestNG-tests-1:) select the driver
+2017-05-29 14:43:55,012+0530 3370  INFO  [HotelSearch] (TestNG-tests-1:) return the driver
+2017-05-29 14:43:55,239+0530 3597  INFO  [HomePage] (TestNG-tests-1:) open the application URL
+2017-05-29 14:43:58,305+0530 6663  INFO  [HomePage] (TestNG-tests-1:) opened application URL
+2017-05-29 14:43:58,305+0530 6663  INFO  [HomePage] (TestNG-tests-1:) validate title of the application
+2017-05-29 14:43:58,349+0530 6707  INFO  [HomePage] (TestNG-tests-1:) Page title is: PHPTRAVELS | Travel Technology Partner
+2017-05-29 14:43:58,349+0530 6707  INFO  [HomePage] (TestNG-tests-1:) Validate  if  home page is displayed ?  
+2017-05-29 14:43:59,325+0530 7683  INFO  [HomePage] (TestNG-tests-1:) Home Page is displayed 
+2017-05-29 14:43:59,325+0530 7683  INFO  [HomePage] (TestNG-tests-1:) Click on Hotels tab
+2017-05-29 14:43:59,947+0530 8305  INFO  [HomePage] (TestNG-tests-1:) clicked on  hotel tab
+2017-05-29 14:43:59,947+0530 8305  INFO  [HomePage] (TestNG-tests-1:) Enter City or Hotel  name
+2017-05-29 14:47:11,258+0530 199616 INFO  [HomePage] (TestNG-tests-1:) City or Hotel  name is Entered
+2017-05-29 14:47:11,258+0530 199616 INFO  [HomePage] (TestNG-tests-1:) Enter Check in Date
+2017-05-29 15:00:28,152+0530 0     INFO  [HotelSearch] (TestNG-tests-1:) select the driver
+2017-05-29 15:00:30,232+0530 2080  INFO  [HotelSearch] (TestNG-tests-1:) return the driver
+2017-05-29 15:00:30,375+0530 2223  INFO  [HomePage] (TestNG-tests-1:) open the application URL
+2017-05-29 15:00:33,134+0530 4982  INFO  [HomePage] (TestNG-tests-1:) opened application URL
+2017-05-29 15:00:33,134+0530 4982  INFO  [HomePage] (TestNG-tests-1:) validate title of the application
+2017-05-29 15:00:33,158+0530 5006  INFO  [HomePage] (TestNG-tests-1:) Page title is: PHPTRAVELS | Travel Technology Partner
+2017-05-29 15:00:33,159+0530 5007  INFO  [HomePage] (TestNG-tests-1:) Validate  if  home page is displayed ?  
+2017-05-29 15:00:33,793+0530 5641  INFO  [HomePage] (TestNG-tests-1:) Home Page is displayed 
+2017-05-29 15:00:33,793+0530 5641  INFO  [HomePage] (TestNG-tests-1:) Click on Hotels tab
+2017-05-29 15:00:34,636+0530 6484  INFO  [HomePage] (TestNG-tests-1:) clicked on  hotel tab
+2017-05-29 15:00:34,636+0530 6484  INFO  [HomePage] (TestNG-tests-1:) Enter City or Hotel  name
+2017-06-05 18:06:31,143+0530 0     INFO  [HotelSearch] (TestNG-tests-1:) select the driver
+2017-06-05 18:07:25,717+0530 0     INFO  [HotelSearch] (TestNG-tests-1:) select the driver
+2017-06-05 18:07:28,673+0530 2956  INFO  [HotelSearch] (TestNG-tests-1:) return the driver
+2017-06-05 18:07:28,813+0530 3096  INFO  [HomePage] (TestNG-tests-1:) open the application URL
+2017-06-05 18:07:37,613+0530 11896 INFO  [HomePage] (TestNG-tests-1:) opened application URL
+2017-06-05 18:07:37,613+0530 11896 INFO  [HomePage] (TestNG-tests-1:) validate title of the application
+2017-06-05 18:07:37,619+0530 11902 INFO  [HomePage] (TestNG-tests-1:) Page title is: PHPTRAVELS | Travel Technology Partner
+2017-06-05 18:07:37,620+0530 11903 INFO  [HomePage] (TestNG-tests-1:) Validate  if  home page is displayed ?  
+2017-06-05 18:07:37,667+0530 11950 INFO  [HomePage] (TestNG-tests-1:) Home Page is displayed 
+2017-06-05 18:07:37,667+0530 11950 INFO  [HomePage] (TestNG-tests-1:) Click on Hotels tab
+2017-06-05 18:07:37,753+0530 12036 INFO  [HomePage] (TestNG-tests-1:) clicked on  hotel tab
+2017-06-05 18:07:37,753+0530 12036 INFO  [HomePage] (TestNG-tests-1:) Enter City or Hotel  name
+2017-09-27 19:07:06,653+0530 0     INFO  [HotelSearch] (TestNG-tests-1:) select the driver
+2017-09-27 19:07:09,347+0530 2694  INFO  [HotelSearch] (TestNG-tests-1:) return the driver
+2017-09-27 19:07:09,615+0530 2962  INFO  [HomePage] (TestNG-tests-1:) open the application URL
+2017-09-27 19:07:32,103+0530 25450 INFO  [HomePage] (TestNG-tests-1:) opened application URL
+2017-09-27 19:07:32,103+0530 25450 INFO  [HomePage] (TestNG-tests-1:) validate title of the application
+2017-09-27 19:07:32,116+0530 25463 INFO  [HomePage] (TestNG-tests-1:) Page title is: PHPTRAVELS | Travel Technology Partner
+2017-09-27 19:07:32,116+0530 25463 INFO  [HomePage] (TestNG-tests-1:) Validate  if  home page is displayed ?  
+2017-09-27 19:07:32,525+0530 25872 INFO  [HomePage] (TestNG-tests-1:) Home Page is displayed 
+2017-09-27 19:07:32,525+0530 25872 INFO  [HomePage] (TestNG-tests-1:) Click on Hotels tab
+2017-09-27 19:09:12,749+0530 126096 ERROR [HomePage] (TestNG-tests-1:) Not able click on  hotel tab

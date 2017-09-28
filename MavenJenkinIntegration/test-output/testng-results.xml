@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[<p> <b>Test Description: </b> <br> null.<br></p>]]>
+    </line>
+    <line>
+      <![CDATA[<br>Step 1:<font color=blue> Open travels home page </font>]]>
+    </line>
+    <line>
+      <![CDATA[Home page is opened]]>
+    </line>
+    <line>
+      <![CDATA[<br>Step 2:<font color=blue>get page title </font>]]>
+    </line>
+    <line>
+      <![CDATA[title of application is:PHPTRAVELS | Travel Technology Partner]]>
+    </line>
+    <line>
+      <![CDATA[<br>Step 3:<font color=blue>validate page </font>]]>
+    </line>
+    <line>
+      <![CDATA[page is validated]]>
+    </line>
+    <line>
+      <![CDATA[<br>Step 4:<font color=blue>click Hotels tab </font>]]>
+    </line>
+    <line>
+      <![CDATA[Unable to click on Hotel tab]]>
+    </line>
+    <line>
+      <![CDATA[<br><br><font color=Red> Test Status : Failed <br> Review Step:4</font>]]>
+    </line>
+  </reporter-output>
+  <suite name="php travels IE8 Test Suite" duration-ms="127670" started-at="2017-09-27T13:37:06Z" finished-at="2017-09-27T13:39:13Z">
+    <groups>
+      <group name="Functional">
+        <method signature="HotelSearch.PHPTravelsSearch(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.travels.testclass.HotelSearch@5c3bd550]" name="PHPTravelsSearch" class="com.travels.testclass.HotelSearch"/>
+      </group> <!-- Functional -->
+    </groups>
+    <test name="PharmacyLocator_FunctionalTesting1" duration-ms="127670" started-at="2017-09-27T13:37:06Z" finished-at="2017-09-27T13:39:13Z">
+      <class name="com.travels.testclass.HotelSearch">
+        <test-method status="PASS" signature="beforeClass(java.lang.String, int)[pri:0, instance:com.travels.testclass.HotelSearch@5c3bd550]" name="beforeClass" is-config="true" duration-ms="3252" started-at="2017-09-27T19:07:06Z" finished-at="2017-09-27T19:07:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[InternetExplorerDriver9]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[20]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="setTestData(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.travels.testclass.HotelSearch@5c3bd550]" name="setTestData" is-config="true" duration-ms="0" started-at="2017-09-27T19:07:09Z" finished-at="2017-09-27T19:07:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TestData.xls]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[PHPTravels]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[TC_01_START]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[TC_01_END]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setTestData -->
+        <test-method status="PASS" signature="PHPTravelsSearch(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.travels.testclass.HotelSearch@5c3bd550]" name="PHPTravelsSearch" duration-ms="123141" started-at="2017-09-27T19:07:09Z" data-provider="DataProvider" finished-at="2017-09-27T19:09:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[San Diego, California, United States]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[05/23/2017]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[05/24/2017]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<p> <b>Test Description: </b> <br> null.<br></p>]]>
+            </line>
+            <line>
+              <![CDATA[<br>Step 1:<font color=blue> Open travels home page </font>]]>
+            </line>
+            <line>
+              <![CDATA[Home page is opened]]>
+            </line>
+            <line>
+              <![CDATA[<br>Step 2:<font color=blue>get page title </font>]]>
+            </line>
+            <line>
+              <![CDATA[title of application is:PHPTRAVELS | Travel Technology Partner]]>
+            </line>
+            <line>
+              <![CDATA[<br>Step 3:<font color=blue>validate page </font>]]>
+            </line>
+            <line>
+              <![CDATA[page is validated]]>
+            </line>
+            <line>
+              <![CDATA[<br>Step 4:<font color=blue>click Hotels tab </font>]]>
+            </line>
+            <line>
+              <![CDATA[Unable to click on Hotel tab]]>
+            </line>
+            <line>
+              <![CDATA[<br><br><font color=Red> Test Status : Failed <br> Review Step:4</font>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- PHPTravelsSearch -->
+        <test-method status="PASS" signature="afterClass(java.lang.String)[pri:0, instance:com.travels.testclass.HotelSearch@5c3bd550]" name="afterClass" is-config="true" duration-ms="1028" started-at="2017-09-27T19:09:12Z" finished-at="2017-09-27T19:09:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[InternetExplorerDriver9]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- com.travels.testclass.HotelSearch -->
+    </test> <!-- PharmacyLocator_FunctionalTesting1 -->
+  </suite> <!-- php travels IE8 Test Suite -->
+</testng-results>

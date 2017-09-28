@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >  
+<suite thread-count="2" name="php travels IE8 Test Suite" parallel="tests" preserve-order="false" >
+    <parameter name = "timeout" value = "20" />
+    <parameter name = "testDataXlFileName" value= "TestData.xls"/>
+    <parameter name = "product" value= "Portal"/>
+    <parameter name = "serviceTask" value= "TestServiceTask_TBD"/>
+    <parameter name = "runner" value= "aswami"/>
+    <parameter name = "scriptPath" value= "http://stash/projects/QA/repoos/poortals/browse"/>
+    <parameter name = "build" value= "BuildNo_Optional"/>
+    <parameter name = "testLogPath" value= "DetailedLog_Optional"/>
+    <parameter name = "comment" value= "TestComment_Optional"/>
+    <!-- value for below parameter should be either ON or OFF. 
+    ON creates the qclog file at \\qv1medcaet1\QCExportLogs\ otherwise it will be created in local @ C:\QCLogFiles\ -->
+ 	<parameter name = "qcLogProdMode" value= "OFF"/> 
+    <test name="PharmacyLocator_FunctionalTesting1">
+    
+   
+    <!-- ******* PharmacyLocator_TC_01_01 Parameters ******* -->
+    <parameter name = "driver" value = "ChromeDriver" />
+      <parameter name = "testDataSheetName" value= "PHPTravels"/>
+      <parameter name = "testDataStartCell" value= "TC_01_START"/>
+      <parameter name = "testDataEndCell" value= "TC_01_END"/>
+      <parameter name = "testCaseNameTC01" value= "PHPTravelsSearch"/>
+      <parameter name = "testDescription" value= "Verify Hotel or location search"/>
+       <classes>
+    <class name = "com.travels.testclass.HotelSearch"/>
+    </classes>
+     </test>
+     
+</suite>
